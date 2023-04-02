@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+       
+    <style>
+        h1 {
+    background: #cccccc91;
+    text-align: center;
+    margin-top: 200px;
+}
+        h1 {
+    background: #ccc;
+    text-align: center;
+}
+        body {
+    background: url(https://smartchoice.pk/blog/wp-content/uploads/2018/05/Zakat.jpg);
+}
+        </style>
+    <script>
+        //zakat assignment
+        var num = prompt(" have you calculted your asstes yes or no");
+        if(num == "yes"){
+        var amount = prompt("enter your calculated ammount")
+        var zakat = amount * 2.5 / 100;
+        document.write("<h1>your zakat amount is: " + zakat +"</h1>");
+        
+    }else if(num == "no"){
+    var cal1 = +prompt("enter your bac balance?")
+    var cal2 = +prompt("how much gold you have?")
+    var cal3 = +prompt("enter the anount of your property?")
+    var tola = 200000 * cal2;
+    var plus = cal1 + tola + cal3
+    var zkt = plus * 2.5 / 100;
+    document.write("<h1>your calculated amount is this: " + plus + "<br>" +  "your zakat amount is" +  zkt + "</h1>")
+    }
+    </script>
+</body>
+</html>
+    </script>
+</body>
+</html>
